@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=document.querySelector('#comic-form'),b=document.querySelector('#generate-btn');if(f&&b)f.addEventListener('submit',()=>{b.disabled=true;b.textContent='Generating your comic...';});});
